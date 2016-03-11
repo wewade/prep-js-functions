@@ -1,0 +1,32 @@
+{
+  "name": "prep-js-functions",
+  "version": "1.0.0",
+  "description": "DevLeague Prep Homework - 'Functions' ",
+  "main": "functions.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape 'tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/prep-js-functions.git"
+  },
+  "keywords": [
+    "DevLeague",
+    "Prep",
+    "Functions",
+    "Javascript",
+    "homework"
+  ],
+  "author": "DevLeague LLC <www.devleague.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/prep-js-functions/issues"
+  },
+  "homepage": "https://github.com/devleague/prep-js-functions#readme",
+  "dependencies": {
+    "tape": "^4.5.1"
+  }
+}
