@@ -1,6 +1,7 @@
 /**
  *  Below are some specifications for Functions to be built.
  *
+ *  #1
  *  Declare Two Variables
  *     - `a` random Number value
  *     - `b` random Number value
@@ -11,10 +12,9 @@
  *  functions.
  */
 
-var a = 13;
-var b = 23;
 
 /**
+ *  #2
  *  Function - add
  *
  *  This function returns the result of adding `a` and `b` together.
@@ -23,6 +23,7 @@ var b = 23;
 
 
 /**
+ *  #3
  *  Function - subtract
  *
  *  This function returns the result of subtracting `b` from `a`.
@@ -31,6 +32,7 @@ var b = 23;
 
 
 /**
+ *  #4
  *  Function - multiply
  *
  *  This function returns the result of multiplying `b` by `a`.
@@ -39,6 +41,7 @@ var b = 23;
 
 
 /**
+ *  #5
  *  Function - checkDifference
  *
  *  This function accesses the value stored in the `difference`
@@ -49,6 +52,7 @@ var b = 23;
 
 
 /**
+ *  #6
  *  Function - checkSum
  *
  *  This function checks the value stored at `sum` and
@@ -59,6 +63,7 @@ var b = 23;
 
 
 /**
+ *  #7
  *  Function - checkProduct
  *
  *  This function checks the value stored at `product` and
@@ -68,6 +73,7 @@ var b = 23;
 
 
 /**
+ *  #8
  *  Function - addThenSubtract
  *
  *  This function takes three `Number` arguments named by you,
@@ -78,10 +84,11 @@ var b = 23;
  *
  *  **example:**
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
-
  */
 
+
 /**
+ *  #9
  *  Function - addThenMultiply
  *
  *  This function takes three `Number` arguments named by you,
@@ -94,6 +101,7 @@ var b = 23;
 
 
 /**
+ *  #10
  *  Function - createFullName
  *
  *  @param Datatype: String firstName
@@ -109,6 +117,7 @@ var b = 23;
 
 
 /**
+ *  #11
  *  Function - verifyDrinkingAge
  *
  *  @param Datatype: Number age
@@ -124,6 +133,7 @@ var b = 23;
 
 
 /**
+ *  #12
  *  Function - throwParty
  *
  *  This function checks the value stored at the `canDrinkBeer` variable and
@@ -134,6 +144,7 @@ var b = 23;
 
 
 /**
+ *  #13
  *  Function - eatFood
  *
  *  This function takes 3 arguments
@@ -143,23 +154,22 @@ var b = 23;
  *
  *  **exmaple input:**
  *      if someone called your program like this `eatFood( "John", "Papa", "Pizza" )`
- *
  *  **example output:**
  *     "John Papa loves to eat Pizza"
  *
  *  **exmaple input:**
  *      if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
- *
- *  **example output:**
+  *  **example output:**
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
 
 /**
+ *  #14
  *  Function - repeater
  *
- *  This function will print to the screen `X` amount of times.
- *  Where `X` is the value stored at `howMany`.
+ *  This function will return a string to that repeats one of the phrases
+ *  below `X` amount of times, where `X` is the value stored at `howMany`.
  *  Inside of this function it will check if
  *  the value of `canDrinkBeer`, if the value is true
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
