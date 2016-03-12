@@ -152,12 +152,12 @@
  *  Internally this function will make use of the `createFullName`
  *  function you created earlier.
  *
- *  **exmaple input:**
+ *  **example input:**
  *      if someone called your program like this `eatFood( "John", "Papa", "Pizza" )`
  *  **example output:**
  *     "John Papa loves to eat Pizza"
  *
- *  **exmaple input:**
+ *  **example input:**
  *      if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
   *  **example output:**
  *      "Peter Bojanglesloves loves to eat California Burritos"

@@ -76,7 +76,7 @@ This function checks the value stored at the `canDrinkBeer` variable and if the 
 # 13) `Function - eatFood`
 This function takes 3 arguments `firstName`, `lastName`, `food` and prints out a message to your screen. Internally this function will make use of the `createFullName` function you created earlier.
 
-**exmaple input:** if someone called your program like this `eatFood( "John", "Papa", "Pizza" )`
+**example input:** if someone called your program like this `eatFood( "John", "Papa", "Pizza" )`
 
 **example output:** `"John Papa loves to eat Pizza"`
 
