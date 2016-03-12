@@ -11,6 +11,8 @@
  *  functions.
  */
 
+var a = 13;
+var b = 23;
 
 /**
  *  Function - add

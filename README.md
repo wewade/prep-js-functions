@@ -2,10 +2,15 @@
 Functions are great, they take data (input), do stuff with that data and then return it to you all shiny and fancy (output).
 
 ## Getting Started
-1. Fork this repository and clone it from your personal GitHub Account
-2. In the Terminal, type `cd prep_getting_loopy`
-3. Your work will be one in the file named: `loops.js`
-4. To run your program, open the terminal and type `node loops.js`
+1. **Fork** this repository
+1. **Clone** this repo from your personal GitHub account.
+    - Copy the SSH address on the page
+    - Run the command: `$ git clone [YOUR SSH ADDRESS]` to clone this repo onto your computer.
+1. Navigate into the exercise folder, e.g. `$ cd prep-js-functions`.
+1. Run the command: `$ npm install` to get all other files needed to run the tests.
+1. Your work will be entered into the file named `functions.js`
+1. Run your tests with the command `$ npm test`.
+  - You will need to enter this command each time you want to run the tests.
 
 Below are some specifications for Functions to be built.
 
