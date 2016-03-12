@@ -1,6 +1,12 @@
 # Functions
 Functions are great, they take data (input), do stuff with that data and then return it to you all shiny and fancy (output).
 
+## Getting Started
+1. Fork this repository and clone it from your personal GitHub Account
+2. In the Terminal, type `cd prep_getting_loopy`
+3. Your work will be one in the file named: `loops.js`
+4. To run your program, open the terminal and type `node loops.js`
+
 Below are some specifications for Functions to be built.
 
 # `Declare Two Variables`
