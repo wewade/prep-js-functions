@@ -80,7 +80,7 @@ This function takes 3 arguments `firstName`, `lastName`, `food` and prints out a
 
 **example output:** `"John Papa loves to eat Pizza"`
 
-**exmaple input:** if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
+**example input:** if someone called your program like this `eatFood( "Peter", "Bojangles", "California Burritos" )`
 
 **example output:** `"Peter Bojanglesloves loves to eat California Burritos"`
 
