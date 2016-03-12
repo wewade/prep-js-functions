@@ -11,6 +11,7 @@ Functions are great, they take data (input), do stuff with that data and then re
 1. Your work will be entered into the file named `functions.js`
 1. Run your tests with the command `$ npm test`.
   - You will need to enter this command each time you want to run the tests.
+1. Make all your tests pass :)
 
 Below are some specifications for Functions to be built.
 
