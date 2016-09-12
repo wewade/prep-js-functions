@@ -2,15 +2,21 @@
  *  Below are some specifications for Functions to be built.
  *
  *  #1
- *  Declare Two Variables
+ *  Declare Three Variables
  *     - `a` random Number value
  *     - `b` random Number value
- *
- *  We will be using both of these variables to pass as `parameters` to the
+ *     - 'c' random Number value
+ *  We will be using these variables to pass as `parameters` to the
  *  following functions that we will write. Pay close attention to the other
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
+
+ var a =10;
+ var b =5;
+ var c =2;
+
+
 
 
 /**
@@ -20,7 +26,19 @@
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
+   
 
+
+   function add(n1 , n2){
+   	return n1 + n2;
+
+
+
+   }
+
+   add(a , b);
+   var sum = add(a ,b);
+   console.log(sum);
 
 /**
  *  #3
@@ -29,6 +47,17 @@
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
+
+function sub(n1 , n2){
+
+return n1 - n2 ;
+}
+
+sub(b , a);
+var difference = sub(a , b);
+console.log(difference);
+
+
 
 
 /**
@@ -40,6 +69,20 @@
  */
 
 
+function multiply(n1, n2){
+
+return n1 * n2;
+
+
+}
+
+
+multiply(b ,a)
+var product = multiply(b ,a);
+console.log(product)
+
+
+
 /**
  *  #5
  *  Function - checkDifference
@@ -49,6 +92,16 @@
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+
+function checkDifference(X){
+
+return " My football team lost " + X + " times this week! "
+
+}
+checkDifference(difference);
+var teamResults = checkDifference(difference);
+console.log(teamResults);
+	
 
 
 /**
@@ -62,6 +115,17 @@
  */
 
 
+
+function checkSum(X){
+return "I can adds " +  X  + " numbers"
+
+}
+
+checkSum(sum);
+var adds = checkSum(sum);
+console.log(adds);
+
+
 /**
  *  #7
  *  Function - checkProduct
@@ -71,6 +135,13 @@
  *  then prints the result to the console.
  */
 
+function checkproduct(n1 , n2){
+return n1 * n2;
+
+}
+checkproduct(product , difference)
+console.log(checkproduct(product , difference));
+
 
 /**
  *  #8
@@ -79,12 +150,35 @@
  *  This function takes three `Number` arguments named by you,
  *  then adds the first two arguments together.
  *  Then with the sum of that operation, subtract
- *  the value at the third argument. _This function should
+ *  the value of the third argument. _This function should
  *  make use of your previous functions_.
  *
  *  **example:**
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
+//long route
+function addthensubtract(n1 , n2, n3){
+
+   
+    var sum = add(n1 , n2);
+    var difference = (sum, n3);
+    return difference;
+
+
+}
+console.log(addThenSubtract(a , b , c));
+
+
+// short cut
+function addThenSubtract (n1 , n2 ,n3){
+
+    return sub(add(n1 , n2) , n3);
+}
+console.log(addThenSubtract(a , b, c));
+
+
+
+
 
 
 /**
@@ -98,6 +192,36 @@
  *
  *  Store the return of this function to a variable named `howMany`
  */
+
+// long route
+function addThenMultiply(n1, n2, n3){
+    var sum = add(n1 , n2);
+    var howMany = multiply(sum, n3);
+
+    return howMany;
+}
+
+console.log(addThenMultiply(a, b, c));
+
+
+// short route
+function addThenmultiply(n1, n2, n3){
+
+	 return multiply(add(n1 , n2) , n3);
+	
+
+}
+
+	console.log(addThenmultiply (a , b , c));
+
+
+
+
+
+
+
+
+
 
 
 /**
@@ -114,6 +238,15 @@
  * Call this function and pass your first and last name into it.
  * Store the return value to a variable named `myFullName`
  */
+function createFullName(firstName, lastName){
+
+	return firstName + "" + lastName;
+
+}
+var myFullName = createFullName("fiddy " ,  " centz");
+console.log(myFullName);
+
+
 
 
 /**
@@ -131,6 +264,29 @@
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
+ function verifyDrinkingAge(age){
+  if (age >= 21){
+    return true;
+
+  } 
+    else{
+      return false;
+    }
+
+ }
+       
+  var canDrinkBeer = verifyDrinkingAge(30);       
+         
+        console.log(canDrinkBeer)
+            
+      
+
+ 
+    
+ 
+
+
+
 
 /**
  *  #12
@@ -141,6 +297,25 @@
  *  "The Party will have tons of Cake!" otherwise this message
  *  should be "This Party will have an open bar".
  */
+
+
+  function throwparty(canDrinkBeer){
+    if (canDrinkBeer === false){
+  return "The Party will have tons of Cake!";
+}
+  else{
+    return "This Party will have an open bar";
+  }
+
+
+
+}
+var letsparty = throwparty(canDrinkBeer);
+console.log(letsparty);
+
+
+
+
 
 
 /**
@@ -163,6 +338,15 @@
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
+  function eatfood(firstName, lastName, food){
+    return firstName + lastName + "loves to eat" + food + ".";
+
+
+  }
+ 
+  var foodIlike =eatfood("fiddy" , " centz " , " Chocolate");
+  console.log(foodIlike)
+
 
 /**
  *  #14
@@ -176,3 +360,35 @@
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
+ function repeater(number, age){   
+  for (var i = 0; i < number;  i++){ 
+        if(age===true){
+console.log ("Bacon Pancakes, makin' Bacon Pancakes...");
+
+        }else{
+
+  console.log( "Let it go....LET IT GOOOOOOoOoOoOo ...");
+    }   
+   }
+  
+  }  
+    
+  var howMany = 30
+  var canDrinkBeer = true; 
+  repeater (howMany, canDrinkBeer);  
+    
+   
+   
+
+  
+
+  
+
+
+
+
+ 
+
+
+
+ 
