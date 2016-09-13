@@ -360,9 +360,9 @@ console.log(letsparty);
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
- function repeater(number, age){   
-  for (var i = 0; i < number;  i++){ 
-        if(age===true){
+ function repeater(howMany, canDrinkBeer){   
+  for (var i = 0; i < howMany;  i++){ 
+        if(canDrinkBeer===true){
 console.log ("Bacon Pancakes, makin' Bacon Pancakes...");
 
         }else{
